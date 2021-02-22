@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to right, #822659, #c6a9a3);
+  font-family: Helvetica;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  box-sizing: border-box;
+  padding: 5px 5px 5px 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 10px #234549;
+  transition: width 2s, background-color 1s, box-shadow 1s;
+  border-radius: 10px;
+  color: #822659;
+  width: 500px;
+  height: 570px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  font-family: cursive;
+  font-weight: bold;
+}
+#name {
+  font-size: 30px;
+}
